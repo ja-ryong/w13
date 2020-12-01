@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Arita-buri-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+	font-family: 'Arita-buri-SemiBold';
+	color: #efdca8;
+	font-size: 0.8em;
+	display: inline-block;
+	margin-right: 10vw;
+}
+
+p{
+	font-family: 'Arita-buri-SemiBold';
+	color: #efdca8;
+	font-size: 0.2em;
+	display: inline-block;
+	line-height: 2;
+	margin-top:2.2vw;
+	margin-right: 4vw;
+	margin-bottom: 3vw;
+}
+
+.particle{
+	position: absolute;
+	left: calc(50% - 40vw);
+	top: calc(50% - 49.7vh);
+}
+
+.particle1{
+	position: absolute;
+	animation-name: particle1;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes particle1{
+	0%{
+		left: 0;
+		top: calc(50% - 51vh)
+	}
+
+	100%{
+		left: 100%;
+		top: calc(50% - 50vh)
+	}
+}
+
+.particle2{
+	position: absolute;
+	animation-name: particle2;
+	animation-duration: 10s;
+	animation-delay: 0.1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes particle2{
+	0%{
+		left: 0;
+		top: calc(50% - 45vh)
+	}
+
+	100%{
+		left: 100%;
+		top: calc(50% - 45vh)
+	}
+}
+
+.particle3{
+	position: absolute;
+	animation-name: particle3;
+	animation-duration: 10s;
+	animation-delay: 0.2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes particle3{
+	0%{
+		left: 0;
+		top: calc(50% - 51vh)
+	}
+
+	100%{
+		left: 100%;
+		top: calc(50% - 50vh)
+	}
+}
+
+.particle4{
+	position: absolute;
+	animation-name: particle4;
+	animation-duration: 10s;
+	animation-delay: 0.3s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes particle4{
+	0%{
+		left: 0;
+		top: calc(50% - 51vh)
+	}
+
+	100%{
+		left: 100%;
+		top: calc(50% - 50vh)
+	}
+}
+
+.particle5{
+	position: absolute;
+	animation-name: particle5;
+	animation-duration: 10s;
+	animation-delay: 0.4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes particle5{
+	0%{
+		left: 0;
+		top: calc(50% - 51vh)
+	}
+
+	100%{
+		left: 100%;
+		top: calc(50% - 50vh)
+	}
+}
